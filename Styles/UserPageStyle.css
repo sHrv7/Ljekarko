@@ -1,0 +1,63 @@
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.news-table {
+    border-collapse: unset;
+}
+
+.news-table th,
+.news-table td {
+    background-color: transparent;
+    border: transparent;
+}
+
+.news-table textarea {
+    resize: none;
+    overflow: auto;
+    word-wrap: break-word;
+    height: 100px;
+    width: 100%;
+}
+
+.products-table  {
+    border-collapse: unset;
+}
+
+.products-table th,
+.products-table td {
+    background-color: transparent;
+    border: transparent;
+}
+
+.products-table textarea {
+    resize: none;
+    overflow: auto;
+    word-wrap: break-word;
+    height: 100px;
+    width: 100%;
+}
+
+.numInputs {
+    height: 100px;
+    width: 100%;
+}
+
+
+.halfHeight{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

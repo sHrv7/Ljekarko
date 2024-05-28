@@ -1,0 +1,25 @@
+body{
+    color: aliceblue;
+    background-color: #383f45;
+}
+
+.container {
+    margin-bottom: 20px; /* Spacing between each article */
+}
+
+.nav-link {
+    background-color: #383f45;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    color: aliceblue;
+    margin: 5px;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: green;
+}
+.icon {
+    width: 20px;
+}
